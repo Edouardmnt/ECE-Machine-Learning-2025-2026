@@ -50,5 +50,5 @@ streamlit run ML1/TP2_Regression/TP2.py
 streamlit run ML1/TP4_Clustering/TP4.py
 ```
 
-> Pour le TP SVM, placer les fichiers CSV de `ML1/TP_SVM/data/` à côté du notebook (ou adapter les chemins).
+> Les CSV du TP SVM (car, mushroom, spambase) sont à côté du notebook.
 > Certains jeux de données (Rotten Tomatoes, Shakespeare, MovieReview, breast cancer) ne sont pas inclus et étaient fournis par l'école.
