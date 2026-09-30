@@ -7,5 +7,5 @@ scikit-learn
 statsmodels
 streamlit
 tensorflow
-jupyter
-six
+nltk
+jupyterlab

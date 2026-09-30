@@ -4,5 +4,7 @@ __pycache__/
 .DS_Store
 .venv/
 venv/
-*.h5
+# Fichiers générés par les notebooks
+logs/
 *.keras
+*.h5
