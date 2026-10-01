@@ -1,5 +1,7 @@
 # Régression linéaire : masse du cerveau et masse corporelle des chauves-souris
 
+**▶ Essayer en ligne :** [huggingface.co/spaces/edouardmnt04/regression-chauves-souris](https://huggingface.co/spaces/edouardmnt04/regression-chauves-souris) (environ 1 minute de chargement au premier lancement)
+
 Application **Streamlit** qui modélise la masse du cerveau (BRW, en mg) en fonction de la masse corporelle (BOW, en g) pour 29 espèces de chauves-souris.
 
 Réalisé en binôme par Chloé Lestic et Édouard Menut (Machine Learning 1, ECE Paris, 2025/2026).
