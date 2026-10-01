@@ -1,5 +1,7 @@
 # Clustering : Iris, exoplanètes et vins
 
+**▶ Essayer en ligne :** [huggingface.co/spaces/edouardmnt04/clustering-iris-exoplanetes-vins](https://huggingface.co/spaces/edouardmnt04/clustering-iris-exoplanetes-vins) (environ 1 minute de chargement au premier lancement)
+
 Application **Streamlit** en quatre onglets autour de l'apprentissage non supervisé, puis d'un pipeline complet de data science.
 
 Réalisé en binôme par Chloé Lestic et Édouard Menut (Machine Learning 1, ECE Paris, 2025/2026).
