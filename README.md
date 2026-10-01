@@ -4,6 +4,8 @@ Projets réalisés dans les modules **Machine Learning 1** et **Machine Learning
 
 Le dépôt couvre toute la chaîne d'un projet de machine learning : exploration et nettoyage des données, modèles statistiques, apprentissage supervisé et non supervisé, réseaux de neurones (MLP, rétropropagation codée à la main, RNN) et restitution des résultats dans des applications Streamlit.
 
+Les deux applications Streamlit de ML1 sont **utilisables en ligne** sur Hugging Face (liens ▶ démo ci-dessous). Elles s'exécutent dans le navigateur, avec environ 1 minute de chargement.
+
 **Stack :** Python · pandas · NumPy · scikit-learn · statsmodels · TensorFlow / Keras · Streamlit · Matplotlib / Seaborn
 
 ---
@@ -12,8 +14,8 @@ Le dépôt couvre toute la chaîne d'un projet de machine learning : exploration
 
 | Projet | Ce qui est fait | Résultat clé |
 |---|---|---|
-| [Régression linéaire : cerveau et masse corporelle des chauves-souris](machine-learning-1/regression-lineaire-chauves-souris) | Application Streamlit : régression linéaire (statsmodels), diagnostic des résidus, détection d'un point influent | R² = 0,95. Sans l'espèce atypique, la pente passe de 9,0 à 14,5 mg/g |
-| [Clustering : Iris, exoplanètes et vins](machine-learning-1/clustering-iris-exoplanetes-vins) | Application Streamlit : ACP, K-Means, CAH, indices CH / DB, puis pipeline complet sur Wine Quality (imputation, DBSCAN, KNN, arbre, régression logistique) | Silhouette 0,51 sur Iris. F1 = 0,76 pour prédire la qualité d'un vin |
+| [Régression linéaire : cerveau et masse corporelle des chauves-souris](machine-learning-1/regression-lineaire-chauves-souris) ([▶ démo](https://huggingface.co/spaces/edouardmnt04/regression-chauves-souris)) | Application Streamlit : régression linéaire (statsmodels), diagnostic des résidus, détection d'un point influent | R² = 0,95. Sans l'espèce atypique, la pente passe de 9,0 à 14,5 mg/g |
+| [Clustering : Iris, exoplanètes et vins](machine-learning-1/clustering-iris-exoplanetes-vins) ([▶ démo](https://huggingface.co/spaces/edouardmnt04/clustering-iris-exoplanetes-vins)) | Application Streamlit : ACP, K-Means, CAH, indices CH / DB, puis pipeline complet sur Wine Quality (imputation, DBSCAN, KNN, arbre, régression logistique) | Silhouette 0,51 sur Iris. F1 = 0,76 pour prédire la qualité d'un vin |
 | [Classification avec SVM](machine-learning-1/svm-classification/svm_classification.ipynb) | 4 jeux UCI : nettoyage, one-hot encoding, sélection de variables (chi²), validation croisée stratifiée, GridSearch sur noyau et `C` | 97 % (cancer du sein), 91 % (spam), 99,9 % (voitures), 100 % (champignons) |
 
 <p align="center">
@@ -65,3 +67,5 @@ Les jeux de données sont inclus, sauf pour le notebook RNN : `shakespeare.txt` 
 ## Auteurs
 
 **Édouard Menut**. Les projets *Régression linéaire*, *Clustering* et le TP noté *Auto MPG* ont été réalisés en binôme avec **Chloé Lestic**.
+
+Autres projets : [Data Science](https://github.com/Edouardmnt/ECE-Data-Science-2025-2026) · [CinéTarget, Naive Bayes](https://github.com/Edouardmnt/ECE-CineTarget-Naive-Bayes) · [Data Mining](https://github.com/Edouardmnt/ECE-Data-Mining-2025-2026) · [Big Data](https://github.com/Edouardmnt/ECE-Big-Data-2025-2026)
